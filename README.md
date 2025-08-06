@@ -9,4 +9,13 @@ chalk	Estilização de texto no terminal com cores, estilos e fundo
 log-symbols	Ícones visuais como ✔️, ❌, ⚠️, ℹ️ para melhorar o feedback via terminal
 
 ⚙️ Instalação
+
 npm install chalk log-symbols
+📂 Estrutura do Projeto
+txt
+07-npm-packages-basic/
+├── node_modules/
+├── src/
+├── package.json
+├── package-lock.json
+└── .gitignore
