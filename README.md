@@ -1,24 +1,24 @@
-📦 Projeto: 07-npm-packages-basic
-Este projeto tem como objetivo demonstrar como utilizar bibliotecas NPM para melhorar a apresentação e o feedback visual de sistemas via terminal em Node.js.. Foram exploradas duas bibliotecas principais:
+📦 07-npm-packages-basic
+<p align="center"> <img src="https://img.shields.io/badge/NPM-Packages-blue?style=for-the-badge&logo=npm" /> <img src="https://img.shields.io/badge/Node.js-%232F74C0?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" /> </p>
 
-chalk: estilização de texto no terminal (cores, negrito, itálico etc.)
+Projeto desenvolvido durante minha jornada na plataforma DIO, utilizando pacotes NPM para personalizar o terminal com mensagens estilizadas e visuais.
 
-log-symbols: ícones visuais para mensagens (✔️, ❌, ⚠️, ℹ️)
-
-📁 Estrutura do Projeto
+🧰 Tecnologias & Dependências
+Pacote	Função
+chalk	Estilização de texto no terminal com cores, estilos e fundo
+log-symbols	Ícones visuais como ✔️, ❌, ⚠️, ℹ️ para melhorar o feedback via terminal
+⚙️ Instalação
+bash
+npm install chalk log-symbols
+📂 Estrutura do Projeto
+txt
 07-npm-packages-basic/
-│
 ├── node_modules/
 ├── src/
 ├── package.json
 ├── package-lock.json
 └── .gitignore
-🛠️ Instalação dos Pacotes
-Execute o seguinte comando no terminal para instalar as dependências do projeto:
-
-bash
-npm install chalk log-symbols
-📌 Código de Exemplo
+🧪 Exemplo no Código
 js
 import chalk from 'chalk';
 import logSymbols from 'log-symbols';
@@ -32,41 +32,34 @@ console.log(logSymbols.success, chalk.green.italic("Servidor iniciado"));
 console.log(logSymbols.error, chalk.red.italic("Servidor com problema"));
 console.log(logSymbols.warning, chalk.yellow("Atenção"));
 console.log(logSymbols.info, chalk.blue("Informo que o sistema a partir das 0h estará inoperante."));
-📄 Arquivo .gitignore
-Evite subir a pasta node_modules/ para o GitHub adicionando este conteúdo ao seu .gitignore:
+🧼 Ignorar diretórios no Git
+Adicione o seguinte ao seu arquivo .gitignore:
 
 node_modules/
-📦 package.json (informações do projeto)
+📝 Detalhes no package.json
 json
 {
   "name": "07-npm-packages-basic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Fabio de Souza Lima",
   "license": "ISC",
   "type": "module",
+  "main": "index.js",
   "dependencies": {
     "chalk": "^5.5.0",
     "log-symbols": "^7.0.1"
   }
 }
+🚀 Aprendizado na DIO
+Durante esse projeto, aprendi:
 
-👨‍🏫 Aprendizado na DIO
-Durante o projeto, eu aprendi:
+✅ Gerenciar pacotes com o NPM ✅ Criar interfaces mais amigáveis via terminal com estilo visual ✅ Utilizar .gitignore para evitar sobrecarga no repositório ✅ Estruturar corretamente arquivos como package.json ✅ Documentar o projeto de forma clara e acessível no GitHub
 
-Gerenciamento de dependências com NPM
+🔗 Links Relevantes
+📁 Repositório DIO
 
-Estilização de mensagens no terminal com chalk
+📦 NPM - Página Oficial
 
-Ícones visuais com log-symbols
+🛠️ Documentação NPM
 
-Uso de .gitignore para evitar peso no repositório
-
-Estrutura básica do package.json
-
-A importância da documentação no GitHub para explicar seu projeto
+🧠 75 Pacotes Úteis
