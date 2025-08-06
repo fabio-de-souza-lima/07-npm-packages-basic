@@ -23,3 +23,68 @@ Projeto desenvolvido durante minha jornada na plataforma **DIO**, utilizando pac
 
 ```bash
 npm install chalk log-symbols
+
+📂 Estrutura do Projeto
+07-npm-packages-basic/
+├── node_modules/
+├── src/
+├── package.json
+├── package-lock.json
+└── .gitignore
+
+🧪 Exemplo no Código
+import chalk from 'chalk';
+import logSymbols from 'log-symbols';
+
+console.log(chalk.blue.bgGreen.italic('Olá, eu sou'));
+console.log(chalk.blue.bgGray.bold('Fabio de Souza Lima!'));
+
+console.log(logSymbols.success, "Servidor iniciado com sucesso");
+console.log(logSymbols.success, chalk.green.italic("Servidor iniciado"));
+
+console.log(logSymbols.error, chalk.red.italic("Servidor com problema"));
+console.log(logSymbols.warning, chalk.yellow("Atenção"));
+console.log(logSymbols.info, chalk.blue("Informo que o sistema a partir das 0h estará inoperante."));
+
+🧼 Ignorar diretórios no Git
+Adicione o seguinte ao seu arquivo .gitignore:
+node_modules/
+
+📝 Detalhes no package.json
+{
+  "name": "07-npm-packages-basic",
+  "version": "1.0.0",
+  "author": "Fabio de Souza Lima",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "log-symbols": "^7.0.1"
+  }
+}
+
+🚀 Aprendizado na DIO
+Durante esse projeto, aprendi:
+
+✅ Gerenciar pacotes com o NPM
+
+✅ Criar interfaces mais amigáveis via terminal com estilo visual
+
+✅ Utilizar .gitignore para evitar sobrecarga no repositório
+
+✅ Estruturar corretamente arquivos como package.json
+
+✅ Documentar o projeto de forma clara e acessível no GitHub
+
+🔗 Links Relevantes
+📁 Repositório DIO
+
+📦 NPM - Página Oficial
+
+🛠️ Documentação NPM
+
+🧠 75 Pacotes Úteis
+
+Cole esse conteúdo no seu editor Markdown (como o README.md do GitHub), e tudo vai sair formatadinho. Se quiser transformar esse projeto em uma apresentação ainda mais visual com banners ou imagens geradas, posso te ajudar com isso também. Bora deixar seu repositório com cara de profissional! 😎📘
+
