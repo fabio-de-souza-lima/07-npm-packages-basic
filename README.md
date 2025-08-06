@@ -1,18 +1,12 @@
+📦 07-npm-packages-basic
+<p align="center"> <img src="https://img.shields.io/badge/NPM-Packages-blue?style=for-the-badge&logo=npm" /> <img src="https://img.shields.io/badge/Node.js-%232F74C0?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" /> </p>
 
-📦 Projeto: 07-npm-packages-basic
-Este projeto foi desenvolvido durante a minha jornada na plataforma DIO e demonstra como utilizar pacotes NPM para melhorar a apresentação e o feedback visual de sistemas no terminal, em um ambiente Node.js.
+Projeto desenvolvido durante minha jornada na plataforma DIO, utilizando pacotes NPM para personalizar o terminal com mensagens estilizadas e visuais.
 
-Olá, Fabio! Claro, vamos deixar a sua documentação perfeitamente alinhada e personalizada para você colocar no seu arquivo README.md do GitHub.
+🧰 Tecnologias & Dependências
+Pacote	Função
+chalk	Estilização de texto no terminal com cores, estilos e fundo
+log-symbols	Ícones visuais como ✔️, ❌, ⚠️, ℹ️ para melhorar o feedback via terminal
 
-O formato Markdown (usado nos arquivos README) permite que você estruture o texto de forma clara e visualmente agradável.
-
-💡 Dica Importante:
-Copia e cola este texto diretamente no seu arquivo README.md e veja a mágica acontecer. Ficará exatamente como você vê abaixo.
-
-📦 Projeto: 07-npm-packages-basic
-Este projeto foi desenvolvido durante a minha jornada na plataforma DIO e demonstra como utilizar pacotes NPM para melhorar a apresentação e o feedback visual de sistemas no terminal, em um ambiente Node.js.
-
-📚 Bibliotecas Utilizadas
-Pacote	Descrição
-chalk	Estilização de texto no terminal com cores, negrito, itálico, entre outros.
-log-symbols	Adiciona símbolos visuais como ✔️, ❌, ⚠️, ℹ️ para melhorar o feedback.
+⚙️ Instalação
+npm install chalk log-symbols
