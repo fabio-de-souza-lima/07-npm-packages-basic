@@ -77,14 +77,11 @@ Durante esse projeto, aprendi:
 
 ✅ Documentar o projeto de forma clara e acessível no GitHub
 
-🔗 Links Relevantes
-📁 Repositório DIO
+## 🔗 Links Relevantes
 
-📦 NPM - Página Oficial
-
-🛠️ Documentação NPM
-
-🧠 75 Pacotes Úteis
-
+- 📁 [Repositório DIO](https://github.com/digitalinnovationone/formacao-nodejs/tree/main/07-npm-packages-basic)  
+- 📦 [NPM - Página Oficial](https://www.npmjs.com/)  
+- 🛠️ [Documentação NPM](https://docs.npmjs.com/)  
+- 🧠 [75 Pacotes Úteis](https://firebearstudio.com/blog/node-js-command-line-apps-utilities.html)
 
 
