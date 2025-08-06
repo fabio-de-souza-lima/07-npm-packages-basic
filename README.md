@@ -86,5 +86,5 @@ Durante esse projeto, aprendi:
 
 🧠 75 Pacotes Úteis
 
-Cole esse conteúdo no seu editor Markdown (como o README.md do GitHub), e tudo vai sair formatadinho. Se quiser transformar esse projeto em uma apresentação ainda mais visual com banners ou imagens geradas, posso te ajudar com isso também. Bora deixar seu repositório com cara de profissional! 😎📘
+
 
